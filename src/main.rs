@@ -5,6 +5,7 @@ use serde::Deserialize;
 use std::fs;
 use std::path::Path;
 mod server;
+mod storage;
 
 #[derive(Deserialize)]
 struct ReceiverConfig {
